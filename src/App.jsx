@@ -3,7 +3,6 @@ import { CurrencyBlock } from './assets/currencyBlock';
 import './App.css';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import { Container, Grid } from '@mui/material';
 
 function App() {
