@@ -19,6 +19,5 @@ export const CurrencyBlock = ({ value, currency, onChangeValue, onChangeCurrency
             value={value}
             type="number"
             placeholder={0} />
-        <br></br><br></br>
     </div>
 );

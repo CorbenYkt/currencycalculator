@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -33,13 +35,6 @@ a:active {
   color: #ECD5BB;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
@@ -68,64 +63,63 @@ button:focus-visible {
 }
 
 
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+:root {
+  color: #213547;
+  background-color: #ffffff;
+}
 
-  button {
-    background-color: #f9f9f9;
-  }
+button {
+  background-color: #f9f9f9;
+}
 
-  .block {
-    input {
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      font-size: 3rem;
-      font-weight: bold;
-      padding: 5px 5px;
-      letter-spacing: 1.3px;
-      outline: none;
-      margin-top: 5px;
-      border-radius: 5px;
-      width: 100%;
-    }
-  }
-
-  .currencies {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.block {
+  input {
     border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 5px 5px;
+    letter-spacing: 1.3px;
+    outline: none;
+    margin-top: 5px;
     border-radius: 5px;
-    overflow: hidden;
+    width: 100%;
+  }
+}
 
-    li {
-      display: flex;
-      padding: 10px;
-      border-right: 1px solid rgba(0, 0, 0, 0.05);
-      cursor: pointer;
-      justify-content: center;
-      flex: 1;
+.currencies {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
 
-      &:hover {
-        background-color: rgba(0, 0, 0, 0.03);
-      }
+  li {
+    display: flex;
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    justify-content: center;
+    flex: 1;
 
-      &:active {
-        background-color: rgba(0, 0, 0, 0.05);
-      }
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.03);
+    }
 
-      &.active {
-        background-color: #213547;
-        color: #fff;
-      }
+    &:active {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
 
-      &:last-of-type {
-        display: inline-flex;
-        align-items: center;
-        flex: 0 0 50px;
-        border-right: 0;
-      }
+    &.active {
+      background-color: #213547;
+      color: #fff;
+    }
+
+    &:last-of-type {
+      display: inline-flex;
+      align-items: center;
+      border-right: 0;
     }
   }
+}
